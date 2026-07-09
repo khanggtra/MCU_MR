@@ -27,10 +27,8 @@ void HAL_UART_Init(uint32_t baud_rate) {
     SPBRG = (uint8_t)(spbrg_value & 0xFF);
     SPBRGH = (uint8_t)(spbrg_value >> 8);
 
-    /* 2. Configure TX/RX Pins 
-     * Note: PIC16F887 datasheet explicitly states both TRISC6 and TRISC7 
-     * must be set to 1. The EUSART module will reconfigure them automatically.
-     */
+    /* 2. Configure TX/RX Pins */
+
     TRISCbits.TRISC6 = 1; 
     TRISCbits.TRISC7 = 1; 
 
@@ -83,7 +81,7 @@ void HAL_UART_WriteChar(uint8_t data) {
 }
 
 void HAL_UART_WriteInt(const int32_t value) {
-    char buffer[12]; /* Enough for -2,147,483,648 and null terminator */
+    char buffer[12];
     int index = 0;
     int32_t temp = value;
 

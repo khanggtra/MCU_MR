@@ -37,15 +37,4 @@ void SysTick_Increment(void);
  */
 uint32_t SysTick_GetMs(void);
 
-/**
- * @brief  Executes a safe blocking delay based on system ticks.
- * @details Unlike standard hardware delays (e.g., __delay_ms), this function 
- * polls the tick counter. This allows global interrupts (like UART receive 
- * or ADC conversions) to continue functioning normally in the background 
- * while the CPU waits.
- * @param  delay_ms The required delay time in milliseconds.
- * @return None
- */
-void SysTick_DelayMs(uint32_t delay_ms);
-
 #endif /* SYS_TICK_H */
