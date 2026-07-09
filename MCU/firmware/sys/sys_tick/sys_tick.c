@@ -30,16 +30,3 @@ uint32_t SysTick_GetMs(void) {
     
     return current_ticks;
 }
-
-/**
- * @brief Blocking delay based on System Ticks.
- * @note  While this is blocking, it is safer than __delay_ms() because 
- * interrupts (like ADC or UART) continue to function during this delay.
- */
-void SysTick_DelayMs(uint32_t delay_ms) {
-    uint32_t start_time = SysTick_GetMs();
-    
-    while ((SysTick_GetMs() - start_time) < delay_ms) {
-        /* Wait */
-    }
-}

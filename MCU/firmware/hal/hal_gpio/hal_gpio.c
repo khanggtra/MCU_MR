@@ -162,28 +162,3 @@ gpio_state_t HAL_GPIO_ReadPin(gpio_port_t port, gpio_pin_t pin) {
     
     return bit_status ? GPIO_HIGH : GPIO_LOW;
 }
-
-/**
- * @brief Toggles (inverts) the current logic state of a specific output pin.
- */
-void HAL_GPIO_TogglePin(gpio_port_t port, gpio_pin_t pin) {
-    switch (port) {
-        case PORT_A: 
-            PORTA ^= (1 << pin); /* XOR operation to toggle the bit */
-            break;
-        case PORT_B: 
-            PORTB ^= (1 << pin); 
-            break;
-        case PORT_C: 
-            PORTC ^= (1 << pin); 
-            break;
-        case PORT_D: 
-            PORTD ^= (1 << pin); 
-            break;
-        case PORT_E: 
-            PORTE ^= (1 << pin); 
-            break;
-        default: 
-            break;
-    }
-}

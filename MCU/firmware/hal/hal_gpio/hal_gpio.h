@@ -85,6 +85,5 @@ gpio_state_t HAL_GPIO_ReadPin(gpio_port_t port, gpio_pin_t pin);
  * @param  pin  The target GPIO pin.
  * @note   If the pin is currently HIGH, it will become LOW, and vice versa.
  */
-void HAL_GPIO_TogglePin(gpio_port_t port, gpio_pin_t pin);
 
 #endif /* HAL_GPIO_H */
