@@ -1,7 +1,0 @@
-# Các thư viện cần thiết cho project trafficLight_PIC16F887
-queue
-threading
-time
-tkinter
-serial
-dataclasses
