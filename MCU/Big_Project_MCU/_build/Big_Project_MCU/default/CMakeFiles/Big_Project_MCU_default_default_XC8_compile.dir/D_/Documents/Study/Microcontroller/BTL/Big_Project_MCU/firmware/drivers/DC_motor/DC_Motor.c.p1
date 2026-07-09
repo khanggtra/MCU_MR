@@ -1,0 +1,278 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"4 D:\Documents\Study\Microcontroller\BTL\Big_Project_MCU\firmware\drivers\DC motor\DC_Motor.c
+[c E1427 0 1 2 3 4 5 6 7 .. ]
+[n E1427 . PIN_0 PIN_1 PIN_2 PIN_3 PIN_4 PIN_5 PIN_6 PIN_7  ]
+"7
+[c E1420 0 1 2 3 4 .. ]
+[n E1420 . PORT_A PORT_B PORT_C PORT_D PORT_E  ]
+"12
+[c E1437 0 1 .. ]
+[n E1437 . GPIO_DIR_OUTPUT GPIO_DIR_INPUT  ]
+"72 D:\Documents\Study\Microcontroller\BTL\Big_Project_MCU\firmware\drivers\DC motor/../../hal/hal_gpio/hal_gpio.h
+[v _HAL_GPIO_SetDirection `(v ~T0 @X0 0 ef3`E1420`E1427`E1437 ]
+"16 D:\Documents\Study\Microcontroller\BTL\Big_Project_MCU\firmware\drivers\DC motor\DC_Motor.c
+[c E1441 0 1 .. ]
+[n E1441 . GPIO_LOW GPIO_HIGH  ]
+"81 D:\Documents\Study\Microcontroller\BTL\Big_Project_MCU\firmware\drivers\DC motor/../../hal/hal_gpio/hal_gpio.h
+[v _HAL_GPIO_WritePin `(v ~T0 @X0 0 ef3`E1420`E1427`E1441 ]
+"18 D:\Documents\Study\Microcontroller\BTL\Big_Project_MCU\firmware\drivers\DC motor/../../hal/hal_pwm/hal_pwm.h
+[v _HAL_PWM_Init `(v ~T0 @X0 0 ef1`ul ]
+"31 D:\Documents\Study\Microcontroller\BTL\Big_Project_MCU\firmware\drivers\DC motor\DC_Motor.c
+[c E1466 1 2 .. ]
+[n E1466 . PWM_CHANNEL_1 PWM_CHANNEL_2  ]
+"26 D:\Documents\Study\Microcontroller\BTL\Big_Project_MCU\firmware\drivers\DC motor/../../hal/hal_pwm/hal_pwm.h
+[v _HAL_PWM_SetDutyCycle `(v ~T0 @X0 0 ef2`E1466`us ]
+"38 C:/Users/pc/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.8.167/xc8\pic\include\proc/pic16f887.h
+[; <" INDF equ 00h ;# ">
+"45
+[; <" TMR0 equ 01h ;# ">
+"52
+[; <" PCL equ 02h ;# ">
+"59
+[; <" STATUS equ 03h ;# ">
+"145
+[; <" FSR equ 04h ;# ">
+"152
+[; <" PORTA equ 05h ;# ">
+"214
+[; <" PORTB equ 06h ;# ">
+"276
+[; <" PORTC equ 07h ;# ">
+"338
+[; <" PORTD equ 08h ;# ">
+"400
+[; <" PORTE equ 09h ;# ">
+"438
+[; <" PCLATH equ 0Ah ;# ">
+"445
+[; <" INTCON equ 0Bh ;# ">
+"523
+[; <" PIR1 equ 0Ch ;# ">
+"579
+[; <" PIR2 equ 0Dh ;# ">
+"636
+[; <" TMR1 equ 0Eh ;# ">
+"643
+[; <" TMR1L equ 0Eh ;# ">
+"650
+[; <" TMR1H equ 0Fh ;# ">
+"657
+[; <" T1CON equ 010h ;# ">
+"751
+[; <" TMR2 equ 011h ;# ">
+"758
+[; <" T2CON equ 012h ;# ">
+"829
+[; <" SSPBUF equ 013h ;# ">
+"836
+[; <" SSPCON equ 014h ;# ">
+"906
+[; <" CCPR1 equ 015h ;# ">
+"913
+[; <" CCPR1L equ 015h ;# ">
+"920
+[; <" CCPR1H equ 016h ;# ">
+"927
+[; <" CCP1CON equ 017h ;# ">
+"1024
+[; <" RCSTA equ 018h ;# ">
+"1119
+[; <" TXREG equ 019h ;# ">
+"1126
+[; <" RCREG equ 01Ah ;# ">
+"1133
+[; <" CCPR2 equ 01Bh ;# ">
+"1140
+[; <" CCPR2L equ 01Bh ;# ">
+"1147
+[; <" CCPR2H equ 01Ch ;# ">
+"1154
+[; <" CCP2CON equ 01Dh ;# ">
+"1224
+[; <" ADRESH equ 01Eh ;# ">
+"1231
+[; <" ADCON0 equ 01Fh ;# ">
+"1332
+[; <" OPTION_REG equ 081h ;# ">
+"1402
+[; <" TRISA equ 085h ;# ">
+"1464
+[; <" TRISB equ 086h ;# ">
+"1526
+[; <" TRISC equ 087h ;# ">
+"1588
+[; <" TRISD equ 088h ;# ">
+"1650
+[; <" TRISE equ 089h ;# ">
+"1688
+[; <" PIE1 equ 08Ch ;# ">
+"1744
+[; <" PIE2 equ 08Dh ;# ">
+"1801
+[; <" PCON equ 08Eh ;# ">
+"1848
+[; <" OSCCON equ 08Fh ;# ">
+"1913
+[; <" OSCTUNE equ 090h ;# ">
+"1965
+[; <" SSPCON2 equ 091h ;# ">
+"2027
+[; <" PR2 equ 092h ;# ">
+"2034
+[; <" SSPADD equ 093h ;# ">
+"2041
+[; <" SSPMSK equ 093h ;# ">
+"2046
+[; <" MSK equ 093h ;# ">
+"2163
+[; <" SSPSTAT equ 094h ;# ">
+"2332
+[; <" WPUB equ 095h ;# ">
+"2402
+[; <" IOCB equ 096h ;# ">
+"2472
+[; <" VRCON equ 097h ;# ">
+"2542
+[; <" TXSTA equ 098h ;# ">
+"2628
+[; <" SPBRG equ 099h ;# ">
+"2690
+[; <" SPBRGH equ 09Ah ;# ">
+"2760
+[; <" PWM1CON equ 09Bh ;# ">
+"2830
+[; <" ECCPAS equ 09Ch ;# ">
+"2912
+[; <" PSTRCON equ 09Dh ;# ">
+"2956
+[; <" ADRESL equ 09Eh ;# ">
+"2963
+[; <" ADCON1 equ 09Fh ;# ">
+"2997
+[; <" WDTCON equ 0105h ;# ">
+"3050
+[; <" CM1CON0 equ 0107h ;# ">
+"3115
+[; <" CM2CON0 equ 0108h ;# ">
+"3180
+[; <" CM2CON1 equ 0109h ;# ">
+"3231
+[; <" EEDATA equ 010Ch ;# ">
+"3236
+[; <" EEDAT equ 010Ch ;# ">
+"3243
+[; <" EEADR equ 010Dh ;# ">
+"3250
+[; <" EEDATH equ 010Eh ;# ">
+"3257
+[; <" EEADRH equ 010Fh ;# ">
+"3264
+[; <" SRCON equ 0185h ;# ">
+"3321
+[; <" BAUDCTL equ 0187h ;# ">
+"3373
+[; <" ANSEL equ 0188h ;# ">
+"3435
+[; <" ANSELH equ 0189h ;# ">
+"3485
+[; <" EECON1 equ 018Ch ;# ">
+"3530
+[; <" EECON2 equ 018Dh ;# ">
+"4 D:\Documents\Study\Microcontroller\BTL\Big_Project_MCU\firmware\drivers\DC motor\DC_Motor.c
+[v _IN1_pin_static `E1427 ~T0 @X0 1 s ]
+"5
+[v _IN2_pin_static `E1427 ~T0 @X0 1 s ]
+"7
+[v _DC_Motor_Init `(v ~T0 @X0 1 ef3`E1420`E1427`E1427 ]
+{
+[e :U _DC_Motor_Init ]
+[v _IN_port `E1420 ~T0 @X0 1 r1 ]
+[v _IN1_pin `E1427 ~T0 @X0 1 r2 ]
+[v _IN2_pin `E1427 ~T0 @X0 1 r3 ]
+[f ]
+"9
+[e = _IN1_pin_static _IN1_pin ]
+"10
+[e = _IN2_pin_static _IN2_pin ]
+"12
+[e ( _HAL_GPIO_SetDirection (3 , , _IN_port _IN1_pin . `E1437 0 ]
+"13
+[e ( _HAL_GPIO_SetDirection (3 , , _IN_port _IN2_pin . `E1437 0 ]
+"16
+[e ( _HAL_GPIO_WritePin (3 , , _IN_port _IN1_pin . `E1441 0 ]
+"17
+[e ( _HAL_GPIO_WritePin (3 , , _IN_port _IN2_pin . `E1441 0 ]
+"19
+[e ( _HAL_PWM_Init (1 -> -> -> 10000 `i `l `ul ]
+"20
+[e :UE 142 ]
+}
+"22
+[v _DC_Motor_SetVoltage `(v ~T0 @X0 1 ef1`l ]
+{
+[e :U _DC_Motor_SetVoltage ]
+[v _voltage_mV `l ~T0 @X0 1 r1 ]
+[f ]
+"24
+[e $ ! > _voltage_mV -> -> 12000 `i `l 144  ]
+[e = _voltage_mV -> -> 12000 `i `l ]
+[e :U 144 ]
+"26
+[e $ ! > _voltage_mV -> -> 0 `i `l 145  ]
+{
+"28
+[e ( _HAL_GPIO_WritePin (3 , , . `E1420 1 _IN1_pin_static . `E1441 1 ]
+"29
+[e ( _HAL_GPIO_WritePin (3 , , . `E1420 1 _IN2_pin_static . `E1441 0 ]
+"30
+[v _duty `us ~T0 @X0 1 a ]
+[e = _duty -> / * _voltage_mV -> -> 1000 `i `l -> -> 12000 `i `l `us ]
+"31
+[e ( _HAL_PWM_SetDutyCycle (2 , . `E1466 0 _duty ]
+"32
+}
+[e $U 146  ]
+[e :U 145 ]
+[e $ ! < _voltage_mV -> -> 0 `i `l 147  ]
+{
+"34
+[e ( _HAL_GPIO_WritePin (3 , , . `E1420 1 _IN1_pin_static . `E1441 0 ]
+"35
+[e ( _HAL_GPIO_WritePin (3 , , . `E1420 1 _IN2_pin_static . `E1441 1 ]
+"36
+[v _duty `us ~T0 @X0 1 a ]
+[e = _duty -> / * -U _voltage_mV -> -> 1000 `i `l -> -> 12000 `i `l `us ]
+"37
+[e ( _HAL_PWM_SetDutyCycle (2 , . `E1466 0 _duty ]
+"38
+}
+[e $U 148  ]
+[e :U 147 ]
+{
+"40
+[e ( _HAL_GPIO_WritePin (3 , , . `E1420 1 _IN1_pin_static . `E1441 0 ]
+"41
+[e ( _HAL_GPIO_WritePin (3 , , . `E1420 1 _IN2_pin_static . `E1441 0 ]
+"42
+[e ( _HAL_PWM_SetDutyCycle (2 , . `E1466 0 -> -> 0 `i `us ]
+"43
+}
+[e :U 148 ]
+[e :U 146 ]
+"44
+[e :UE 143 ]
+}
+"46
+[v _DC_Motor_Brake `(v ~T0 @X0 1 ef ]
+{
+[e :U _DC_Motor_Brake ]
+[f ]
+"48
+[e ( _HAL_GPIO_WritePin (3 , , . `E1420 1 _IN1_pin_static . `E1441 1 ]
+"49
+[e ( _HAL_GPIO_WritePin (3 , , . `E1420 1 _IN2_pin_static . `E1441 1 ]
+"50
+[e ( _HAL_PWM_SetDutyCycle (2 , . `E1466 0 -> -> 0 `i `us ]
+"51
+[e :UE 149 ]
+}

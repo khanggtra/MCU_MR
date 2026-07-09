@@ -1,0 +1,313 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"1530 C:/Users/pc/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.8.167/xc8\pic\include\proc/pic16f887.h
+[s S61 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S61 . TRISC0 TRISC1 TRISC2 TRISC3 TRISC4 TRISC5 TRISC6 TRISC7 ]
+"1529
+[u S60 `S61 1 ]
+[n S60 . . ]
+"1541
+[v _TRISCbits `VS60 ~T0 @X0 0 e@135 ]
+"280
+[s S14 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S14 . RC0 RC1 RC2 RC3 RC4 RC5 RC6 RC7 ]
+"279
+[u S13 `S14 1 ]
+[n S13 . . ]
+"291
+[v _PORTCbits `VS13 ~T0 @X0 0 e@7 ]
+"925
+[v _CCP1CON `Vuc ~T0 @X0 0 e@23 ]
+"1152
+[v _CCP2CON `Vuc ~T0 @X0 0 e@29 ]
+"762
+[s S31 :2 `uc 1 :1 `uc 1 :4 `uc 1 ]
+[n S31 . T2CKPS TMR2ON TOUTPS ]
+"767
+[s S32 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S32 . T2CKPS0 T2CKPS1 . TOUTPS0 TOUTPS1 TOUTPS2 TOUTPS3 ]
+"761
+[u S30 `S31 1 `S32 1 ]
+[n S30 . . . ]
+"777
+[v _T2CONbits `VS30 ~T0 @X0 0 e@18 ]
+"2025
+[v _PR2 `Vuc ~T0 @X0 0 e@146 ]
+"911
+[v _CCPR1L `Vuc ~T0 @X0 0 e@21 ]
+"1138
+[v _CCPR2L `Vuc ~T0 @X0 0 e@27 ]
+"45 D:\Documents\Study\Microcontroller\BTL\Big_Project_MCU\firmware\hal\hal_pwm\hal_pwm.c
+[c E1420 1 2 .. ]
+[n E1420 . PWM_CHANNEL_1 PWM_CHANNEL_2  ]
+"931 C:/Users/pc/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.8.167/xc8\pic\include\proc/pic16f887.h
+[s S37 :4 `uc 1 :2 `uc 1 :2 `uc 1 ]
+[n S37 . CCP1M DC1B P1M ]
+"936
+[s S38 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S38 . CCP1M0 CCP1M1 CCP1M2 CCP1M3 DC1B0 DC1B1 P1M0 P1M1 ]
+"946
+[s S39 :4 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S39 . . CCP1Y CCP1X ]
+"930
+[u S36 `S37 1 `S38 1 `S39 1 ]
+[n S36 . . . . ]
+"952
+[v _CCP1CONbits `VS36 ~T0 @X0 0 e@23 ]
+"1158
+[s S46 :4 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S46 . CCP2M DC2B0 DC2B1 ]
+"1163
+[s S47 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S47 . CCP2M0 CCP2M1 CCP2M2 CCP2M3 CCP2Y CCP2X ]
+"1157
+[u S45 `S46 1 `S47 1 ]
+[n S45 . . . ]
+"1172
+[v _CCP2CONbits `VS45 ~T0 @X0 0 e@29 ]
+"38 C:/Users/pc/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.8.167/xc8\pic\include\proc/pic16f887.h
+[; <" INDF equ 00h ;# ">
+"45
+[; <" TMR0 equ 01h ;# ">
+"52
+[; <" PCL equ 02h ;# ">
+"59
+[; <" STATUS equ 03h ;# ">
+"145
+[; <" FSR equ 04h ;# ">
+"152
+[; <" PORTA equ 05h ;# ">
+"214
+[; <" PORTB equ 06h ;# ">
+"276
+[; <" PORTC equ 07h ;# ">
+"338
+[; <" PORTD equ 08h ;# ">
+"400
+[; <" PORTE equ 09h ;# ">
+"438
+[; <" PCLATH equ 0Ah ;# ">
+"445
+[; <" INTCON equ 0Bh ;# ">
+"523
+[; <" PIR1 equ 0Ch ;# ">
+"579
+[; <" PIR2 equ 0Dh ;# ">
+"636
+[; <" TMR1 equ 0Eh ;# ">
+"643
+[; <" TMR1L equ 0Eh ;# ">
+"650
+[; <" TMR1H equ 0Fh ;# ">
+"657
+[; <" T1CON equ 010h ;# ">
+"751
+[; <" TMR2 equ 011h ;# ">
+"758
+[; <" T2CON equ 012h ;# ">
+"829
+[; <" SSPBUF equ 013h ;# ">
+"836
+[; <" SSPCON equ 014h ;# ">
+"906
+[; <" CCPR1 equ 015h ;# ">
+"913
+[; <" CCPR1L equ 015h ;# ">
+"920
+[; <" CCPR1H equ 016h ;# ">
+"927
+[; <" CCP1CON equ 017h ;# ">
+"1024
+[; <" RCSTA equ 018h ;# ">
+"1119
+[; <" TXREG equ 019h ;# ">
+"1126
+[; <" RCREG equ 01Ah ;# ">
+"1133
+[; <" CCPR2 equ 01Bh ;# ">
+"1140
+[; <" CCPR2L equ 01Bh ;# ">
+"1147
+[; <" CCPR2H equ 01Ch ;# ">
+"1154
+[; <" CCP2CON equ 01Dh ;# ">
+"1224
+[; <" ADRESH equ 01Eh ;# ">
+"1231
+[; <" ADCON0 equ 01Fh ;# ">
+"1332
+[; <" OPTION_REG equ 081h ;# ">
+"1402
+[; <" TRISA equ 085h ;# ">
+"1464
+[; <" TRISB equ 086h ;# ">
+"1526
+[; <" TRISC equ 087h ;# ">
+"1588
+[; <" TRISD equ 088h ;# ">
+"1650
+[; <" TRISE equ 089h ;# ">
+"1688
+[; <" PIE1 equ 08Ch ;# ">
+"1744
+[; <" PIE2 equ 08Dh ;# ">
+"1801
+[; <" PCON equ 08Eh ;# ">
+"1848
+[; <" OSCCON equ 08Fh ;# ">
+"1913
+[; <" OSCTUNE equ 090h ;# ">
+"1965
+[; <" SSPCON2 equ 091h ;# ">
+"2027
+[; <" PR2 equ 092h ;# ">
+"2034
+[; <" SSPADD equ 093h ;# ">
+"2041
+[; <" SSPMSK equ 093h ;# ">
+"2046
+[; <" MSK equ 093h ;# ">
+"2163
+[; <" SSPSTAT equ 094h ;# ">
+"2332
+[; <" WPUB equ 095h ;# ">
+"2402
+[; <" IOCB equ 096h ;# ">
+"2472
+[; <" VRCON equ 097h ;# ">
+"2542
+[; <" TXSTA equ 098h ;# ">
+"2628
+[; <" SPBRG equ 099h ;# ">
+"2690
+[; <" SPBRGH equ 09Ah ;# ">
+"2760
+[; <" PWM1CON equ 09Bh ;# ">
+"2830
+[; <" ECCPAS equ 09Ch ;# ">
+"2912
+[; <" PSTRCON equ 09Dh ;# ">
+"2956
+[; <" ADRESL equ 09Eh ;# ">
+"2963
+[; <" ADCON1 equ 09Fh ;# ">
+"2997
+[; <" WDTCON equ 0105h ;# ">
+"3050
+[; <" CM1CON0 equ 0107h ;# ">
+"3115
+[; <" CM2CON0 equ 0108h ;# ">
+"3180
+[; <" CM2CON1 equ 0109h ;# ">
+"3231
+[; <" EEDATA equ 010Ch ;# ">
+"3236
+[; <" EEDAT equ 010Ch ;# ">
+"3243
+[; <" EEADR equ 010Dh ;# ">
+"3250
+[; <" EEDATH equ 010Eh ;# ">
+"3257
+[; <" EEADRH equ 010Fh ;# ">
+"3264
+[; <" SRCON equ 0185h ;# ">
+"3321
+[; <" BAUDCTL equ 0187h ;# ">
+"3373
+[; <" ANSEL equ 0188h ;# ">
+"3435
+[; <" ANSELH equ 0189h ;# ">
+"3485
+[; <" EECON1 equ 018Ch ;# ">
+"3530
+[; <" EECON2 equ 018Dh ;# ">
+"6 D:\Documents\Study\Microcontroller\BTL\Big_Project_MCU\firmware\hal\hal_pwm\hal_pwm.c
+[v _pwm_max_duty `us ~T0 @X0 1 s ]
+[i _pwm_max_duty
+-> -> 0 `i `us
+]
+"8
+[v _HAL_PWM_Init `(v ~T0 @X0 1 ef1`ul ]
+{
+[e :U _HAL_PWM_Init ]
+[v _frequency `ul ~T0 @X0 1 r1 ]
+[f ]
+"10
+[e = . . _TRISCbits 0 1 -> -> 0 `i `uc ]
+"11
+[e = . . _TRISCbits 0 2 -> -> 0 `i `uc ]
+"14
+[e = . . _PORTCbits 0 1 -> -> 0 `i `uc ]
+"15
+[e = . . _PORTCbits 0 2 -> -> 0 `i `uc ]
+"19
+[e = _CCP1CON -> -> 12 `i `uc ]
+"20
+[e = _CCP2CON -> -> 12 `i `uc ]
+"25
+[e = . . _T2CONbits 0 0 -> -> 2 `i `uc ]
+"29
+[v _pr2_calc `ul ~T0 @X0 1 a ]
+[e = _pr2_calc - / -> 20000000 `ul * * _frequency -> -> -> 4 `i `l `ul -> -> -> 16 `i `l `ul -> -> -> 1 `i `l `ul ]
+"32
+[e $ ! > _pr2_calc -> -> -> 255 `i `l `ul 143  ]
+[e = _pr2_calc -> -> -> 255 `i `l `ul ]
+[e :U 143 ]
+"33
+[e = _PR2 -> _pr2_calc `uc ]
+"37
+[e = _pwm_max_duty -> * -> 4 `i + -> _PR2 `i -> 1 `i `us ]
+"40
+[e = _CCPR1L -> -> 0 `i `uc ]
+"41
+[e = _CCPR2L -> -> 0 `i `uc ]
+"42
+[e = . . _T2CONbits 0 1 -> -> 1 `i `uc ]
+"43
+[e :UE 142 ]
+}
+"45
+[v _HAL_PWM_SetDutyCycle `(v ~T0 @X0 1 ef2`E1420`us ]
+{
+[e :U _HAL_PWM_SetDutyCycle ]
+[v _channel `E1420 ~T0 @X0 1 r1 ]
+[v _duty_permille `us ~T0 @X0 1 r2 ]
+[f ]
+"47
+[e $ ! > -> _duty_permille `ui -> -> 1000 `i `ui 145  ]
+[e = _duty_permille -> -> 1000 `i `us ]
+[e :U 145 ]
+"51
+[v _duty_val_32 `ul ~T0 @X0 1 a ]
+[e = _duty_val_32 / * -> _duty_permille `ul -> _pwm_max_duty `ul -> -> -> 1000 `i `l `ul ]
+"52
+[v _duty_val `us ~T0 @X0 1 a ]
+[e = _duty_val -> _duty_val_32 `us ]
+"58
+[e $ ! == -> _channel `ui -> . `E1420 0 `ui 146  ]
+{
+"59
+[e = _CCPR1L -> >> -> _duty_val `ui -> 2 `i `uc ]
+"60
+[e = . . _CCP1CONbits 1 5 -> ? != & -> _duty_val `ui -> -> 2 `i `ui -> -> 0 `i `ui : -> 1 `i -> 0 `i `uc ]
+"61
+[e = . . _CCP1CONbits 1 4 -> ? != & -> _duty_val `ui -> -> 1 `i `ui -> -> 0 `i `ui : -> 1 `i -> 0 `i `uc ]
+"62
+}
+[e $U 147  ]
+"63
+[e :U 146 ]
+[e $ ! == -> _channel `ui -> . `E1420 1 `ui 148  ]
+{
+"64
+[e = _CCPR2L -> >> -> _duty_val `ui -> 2 `i `uc ]
+"65
+[e = . . _CCP2CONbits 0 2 -> ? != & -> _duty_val `ui -> -> 2 `i `ui -> -> 0 `i `ui : -> 1 `i -> 0 `i `uc ]
+"66
+[e = . . _CCP2CONbits 0 1 -> ? != & -> _duty_val `ui -> -> 1 `i `ui -> -> 0 `i `ui : -> 1 `i -> 0 `i `uc ]
+"67
+}
+[e :U 148 ]
+[e :U 147 ]
+"68
+[e :UE 144 ]
+}

@@ -1,0 +1,364 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir/./D_/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/app/app_commute/app_commute.c.p1"
+		},
+		{
+			"path" : "CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir/./D_/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/app/app_control/app_control.c.p1"
+		},
+		{
+			"path" : "CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir/./D_/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/app/main.c.p1"
+		},
+		{
+			"path" : "CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir/./D_/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/drivers/DC_motor/DC_Motor.c.p1"
+		},
+		{
+			"path" : "CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir/./D_/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/drivers/Encoder/encoder.c.p1"
+		},
+		{
+			"path" : "CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir/./D_/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/hal/hal_adc/hal_adc.c.p1"
+		},
+		{
+			"path" : "CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir/./D_/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/hal/hal_gpio/hal_gpio.c.p1"
+		},
+		{
+			"path" : "CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir/./D_/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/hal/hal_pwm/hal_pwm.c.p1"
+		},
+		{
+			"path" : "CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir/./D_/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/hal/hal_timer0/hal_timer0.c.p1"
+		},
+		{
+			"path" : "CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir/./D_/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/hal/hal_uart/hal_uart.c.p1"
+		},
+		{
+			"path" : "CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir/./D_/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/project_config/fuse/fuse.c.p1"
+		},
+		{
+			"path" : "CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir/./D_/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/sys/sys_config/sys_config.c.p1"
+		},
+		{
+			"path" : "CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir/./D_/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/sys/sys_tick/sys_tick.c.p1"
+		},
+		{
+			"path" : "CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir/./D_/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/utils/utils_pid/utils_pid.c.p1"
+		},
+		{
+			"path" : "CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir/./D_/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/utils/utils_string/utils_string.c.p1"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"target_compile_options",
+			"Big_Project_MCU_default_default_XC8_compile_rule",
+			"target_compile_definitions"
+		],
+		"files" : 
+		[
+			".generated/main.cmake",
+			"CMakeLists.txt",
+			".generated/rule.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 96,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 97,
+				"parent" : 4
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"backtrace" : 5,
+					"fragment" : "-c"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mcpu=16F887"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mdfp=C:/Users/pc/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.8.167/xc8"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-fno-short-double"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-fno-short-float"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-O0"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-maddrqual=ignore"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mwarn=-3"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-msummary=-psect,-class,+mem,-hex,-file"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-ginhx32"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wl,--data-init"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mno-keep-startup"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mno-osccal"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mno-resetbits"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mno-save-resetbits"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mno-download"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mno-stackcall"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mno-default-config-bits"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-std=c99"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-gdwarf-3"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mstack=compiled:auto:auto"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "XPRJ_default=default"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "__16F887__"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "__DEBUG=1"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			]
+		}
+	],
+	"id" : "Big_Project_MCU_default_default_XC8_compile::@6890427a1f51a3e7e1df",
+	"name" : "Big_Project_MCU_default_default_XC8_compile",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/app/app_commute/app_commute.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/app/app_control/app_control.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/app/main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/drivers/DC motor/DC_Motor.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/drivers/Encoder/encoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/hal/hal_adc/hal_adc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/hal/hal_gpio/hal_gpio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/hal/hal_pwm/hal_pwm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/hal/hal_timer0/hal_timer0.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/hal/hal_uart/hal_uart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/project_config/fuse/fuse.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/sys/sys_config/sys_config.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/sys/sys_tick/sys_tick.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/utils/utils_pid/utils_pid.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/utils/utils_string/utils_string.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

@@ -1,0 +1,395 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"2546 C:/Users/pc/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.8.167/xc8\pic\include\proc/pic16f887.h
+[s S103 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S103 . TX9D TRMT BRGH SENDB SYNC TXEN TX9 CSRC ]
+"2556
+[s S104 :1 `uc 1 :5 `uc 1 :1 `uc 1 ]
+[n S104 . TXD8 . nTX8 ]
+"2561
+[s S105 :6 `uc 1 :1 `uc 1 ]
+[n S105 . . TX8_9 ]
+"2545
+[u S102 `S103 1 `S104 1 `S105 1 ]
+[n S102 . . . . ]
+"2566
+[v _TXSTAbits `VS102 ~T0 @X0 0 e@152 ]
+"3325
+[s S135 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S135 . ABDEN WUE . BRG16 SCKP . RCIDL ABDOVF ]
+"3324
+[u S134 `S135 1 ]
+[n S134 . . ]
+"3336
+[v _BAUDCTLbits `VS134 ~T0 @X0 0 e@391 ]
+"2626
+[v _SPBRG `Vuc ~T0 @X0 0 e@153 ]
+"2688
+[v _SPBRGH `Vuc ~T0 @X0 0 e@154 ]
+"1530
+[s S61 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S61 . TRISC0 TRISC1 TRISC2 TRISC3 TRISC4 TRISC5 TRISC6 TRISC7 ]
+"1529
+[u S60 `S61 1 ]
+[n S60 . . ]
+"1541
+[v _TRISCbits `VS60 ~T0 @X0 0 e@135 ]
+"1028
+[s S41 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S41 . RX9D OERR FERR ADDEN CREN SREN RX9 SPEN ]
+"1038
+[s S42 :1 `uc 1 :5 `uc 1 :1 `uc 1 ]
+[n S42 . RCD8 . RC9 ]
+"1043
+[s S43 :6 `uc 1 :1 `uc 1 ]
+[n S43 . . nRC8 ]
+"1047
+[s S44 :6 `uc 1 :1 `uc 1 ]
+[n S44 . . RC8_9 ]
+"1027
+[u S40 `S41 1 `S42 1 `S43 1 `S44 1 ]
+[n S40 . . . . . ]
+"1052
+[v _RCSTAbits `VS40 ~T0 @X0 0 e@24 ]
+"527
+[s S23 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S23 . TMR1IF TMR2IF CCP1IF SSPIF TXIF RCIF ADIF ]
+"526
+[u S22 `S23 1 ]
+[n S22 . . ]
+"537
+[v _PIR1bits `VS22 ~T0 @X0 0 e@12 ]
+"1692
+[s S67 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S67 . TMR1IE TMR2IE CCP1IE SSPIE TXIE RCIE ADIE ]
+"1691
+[u S66 `S67 1 ]
+[n S66 . . ]
+"1702
+[v _PIE1bits `VS66 ~T0 @X0 0 e@140 ]
+"1117
+[v _TXREG `Vuc ~T0 @X0 0 e@25 ]
+"1124
+[v _RCREG `Vuc ~T0 @X0 0 e@26 ]
+"38 C:/Users/pc/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.8.167/xc8\pic\include\proc/pic16f887.h
+[; <" INDF equ 00h ;# ">
+"45
+[; <" TMR0 equ 01h ;# ">
+"52
+[; <" PCL equ 02h ;# ">
+"59
+[; <" STATUS equ 03h ;# ">
+"145
+[; <" FSR equ 04h ;# ">
+"152
+[; <" PORTA equ 05h ;# ">
+"214
+[; <" PORTB equ 06h ;# ">
+"276
+[; <" PORTC equ 07h ;# ">
+"338
+[; <" PORTD equ 08h ;# ">
+"400
+[; <" PORTE equ 09h ;# ">
+"438
+[; <" PCLATH equ 0Ah ;# ">
+"445
+[; <" INTCON equ 0Bh ;# ">
+"523
+[; <" PIR1 equ 0Ch ;# ">
+"579
+[; <" PIR2 equ 0Dh ;# ">
+"636
+[; <" TMR1 equ 0Eh ;# ">
+"643
+[; <" TMR1L equ 0Eh ;# ">
+"650
+[; <" TMR1H equ 0Fh ;# ">
+"657
+[; <" T1CON equ 010h ;# ">
+"751
+[; <" TMR2 equ 011h ;# ">
+"758
+[; <" T2CON equ 012h ;# ">
+"829
+[; <" SSPBUF equ 013h ;# ">
+"836
+[; <" SSPCON equ 014h ;# ">
+"906
+[; <" CCPR1 equ 015h ;# ">
+"913
+[; <" CCPR1L equ 015h ;# ">
+"920
+[; <" CCPR1H equ 016h ;# ">
+"927
+[; <" CCP1CON equ 017h ;# ">
+"1024
+[; <" RCSTA equ 018h ;# ">
+"1119
+[; <" TXREG equ 019h ;# ">
+"1126
+[; <" RCREG equ 01Ah ;# ">
+"1133
+[; <" CCPR2 equ 01Bh ;# ">
+"1140
+[; <" CCPR2L equ 01Bh ;# ">
+"1147
+[; <" CCPR2H equ 01Ch ;# ">
+"1154
+[; <" CCP2CON equ 01Dh ;# ">
+"1224
+[; <" ADRESH equ 01Eh ;# ">
+"1231
+[; <" ADCON0 equ 01Fh ;# ">
+"1332
+[; <" OPTION_REG equ 081h ;# ">
+"1402
+[; <" TRISA equ 085h ;# ">
+"1464
+[; <" TRISB equ 086h ;# ">
+"1526
+[; <" TRISC equ 087h ;# ">
+"1588
+[; <" TRISD equ 088h ;# ">
+"1650
+[; <" TRISE equ 089h ;# ">
+"1688
+[; <" PIE1 equ 08Ch ;# ">
+"1744
+[; <" PIE2 equ 08Dh ;# ">
+"1801
+[; <" PCON equ 08Eh ;# ">
+"1848
+[; <" OSCCON equ 08Fh ;# ">
+"1913
+[; <" OSCTUNE equ 090h ;# ">
+"1965
+[; <" SSPCON2 equ 091h ;# ">
+"2027
+[; <" PR2 equ 092h ;# ">
+"2034
+[; <" SSPADD equ 093h ;# ">
+"2041
+[; <" SSPMSK equ 093h ;# ">
+"2046
+[; <" MSK equ 093h ;# ">
+"2163
+[; <" SSPSTAT equ 094h ;# ">
+"2332
+[; <" WPUB equ 095h ;# ">
+"2402
+[; <" IOCB equ 096h ;# ">
+"2472
+[; <" VRCON equ 097h ;# ">
+"2542
+[; <" TXSTA equ 098h ;# ">
+"2628
+[; <" SPBRG equ 099h ;# ">
+"2690
+[; <" SPBRGH equ 09Ah ;# ">
+"2760
+[; <" PWM1CON equ 09Bh ;# ">
+"2830
+[; <" ECCPAS equ 09Ch ;# ">
+"2912
+[; <" PSTRCON equ 09Dh ;# ">
+"2956
+[; <" ADRESL equ 09Eh ;# ">
+"2963
+[; <" ADCON1 equ 09Fh ;# ">
+"2997
+[; <" WDTCON equ 0105h ;# ">
+"3050
+[; <" CM1CON0 equ 0107h ;# ">
+"3115
+[; <" CM2CON0 equ 0108h ;# ">
+"3180
+[; <" CM2CON1 equ 0109h ;# ">
+"3231
+[; <" EEDATA equ 010Ch ;# ">
+"3236
+[; <" EEDAT equ 010Ch ;# ">
+"3243
+[; <" EEADR equ 010Dh ;# ">
+"3250
+[; <" EEDATH equ 010Eh ;# ">
+"3257
+[; <" EEADRH equ 010Fh ;# ">
+"3264
+[; <" SRCON equ 0185h ;# ">
+"3321
+[; <" BAUDCTL equ 0187h ;# ">
+"3373
+[; <" ANSEL equ 0188h ;# ">
+"3435
+[; <" ANSELH equ 0189h ;# ">
+"3485
+[; <" EECON1 equ 018Ch ;# ">
+"3530
+[; <" EECON2 equ 018Dh ;# ">
+"20 D:\Documents\Study\Microcontroller\BTL\Big_Project_MCU\firmware\hal\hal_uart\hal_uart.c
+[v _rx_buffer `Vuc ~T0 @X0 -> 64 `i s ]
+"21
+[v _rx_head `Vuc ~T0 @X0 1 s ]
+[i _rx_head
+-> -> 0 `i `uc
+]
+"22
+[v _rx_tail `Vuc ~T0 @X0 1 s ]
+[i _rx_tail
+-> -> 0 `i `uc
+]
+"29
+[v _HAL_UART_Init `(v ~T0 @X0 1 ef1`ul ]
+{
+[e :U _HAL_UART_Init ]
+[v _baud_rate `ul ~T0 @X0 1 r1 ]
+[f ]
+"31
+[e = . . _TXSTAbits 0 2 -> -> 1 `i `uc ]
+"32
+[e = . . _BAUDCTLbits 0 3 -> -> 1 `i `uc ]
+"33
+[v _spbrg_value `us ~T0 @X0 1 a ]
+[e = _spbrg_value -> - / -> 20000000 `ul * -> 4 `ul _baud_rate -> -> -> 1 `i `l `ul `us ]
+"34
+[e = _SPBRG -> & -> _spbrg_value `ui -> -> 255 `i `ui `uc ]
+"35
+[e = _SPBRGH -> >> -> _spbrg_value `ui -> 8 `i `uc ]
+"41
+[e = . . _TRISCbits 0 6 -> -> 1 `i `uc ]
+"42
+[e = . . _TRISCbits 0 7 -> -> 1 `i `uc ]
+"45
+[e = . . _RCSTAbits 0 7 -> -> 1 `i `uc ]
+"46
+[e = . . _TXSTAbits 0 5 -> -> 1 `i `uc ]
+"47
+[e = . . _RCSTAbits 0 4 -> -> 1 `i `uc ]
+"50
+[e = . . _PIR1bits 0 5 -> -> 0 `i `uc ]
+"51
+[e = . . _PIE1bits 0 5 -> -> 1 `i `uc ]
+"52
+[e :UE 142 ]
+}
+"58
+[v _HAL_UART_HasData `(a ~T0 @X0 1 ef ]
+{
+[e :U _HAL_UART_HasData ]
+[f ]
+"62
+[e ) -> -> != -> _rx_head `i -> _rx_tail `i `i `a ]
+[e $UE 143  ]
+"63
+[e :UE 143 ]
+}
+"65
+[v _HAL_UART_ReadChar `(uc ~T0 @X0 1 ef ]
+{
+[e :U _HAL_UART_ReadChar ]
+[f ]
+"66
+[v _data `uc ~T0 @X0 1 a ]
+[e = _data -> -> 0 `i `uc ]
+"68
+[e $ ! != -> _rx_head `i -> _rx_tail `i 145  ]
+{
+"69
+[e = _data *U + &U _rx_buffer * -> _rx_tail `ux -> -> # *U &U _rx_buffer `ui `ux ]
+"70
+[e = _rx_tail -> % + -> _rx_tail `i -> 1 `i -> 64 `i `uc ]
+"71
+}
+[e :U 145 ]
+"73
+[e ) _data ]
+[e $UE 144  ]
+"74
+[e :UE 144 ]
+}
+"80
+[v _HAL_UART_WriteChar `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _HAL_UART_WriteChar ]
+[v _data `uc ~T0 @X0 1 r1 ]
+[f ]
+"84
+[e $U 147  ]
+[e :U 148 ]
+{
+"86
+}
+[e :U 147 ]
+"84
+[e $ == -> . . _PIR1bits 0 4 `i -> 0 `i 148  ]
+[e :U 149 ]
+"89
+[e = _TXREG _data ]
+"90
+[e :UE 146 ]
+}
+"92
+[v _HAL_UART_WriteString `(v ~T0 @X0 1 ef1`*Cuc ]
+{
+[e :U _HAL_UART_WriteString ]
+[v _str `*Cuc ~T0 @X0 1 r1 ]
+[f ]
+"94
+[e $U 151  ]
+[e :U 152 ]
+{
+"95
+[e ( _HAL_UART_WriteChar (1 -> *U _str `uc ]
+"96
+[e ++ _str * -> -> 1 `i `x -> -> # *U _str `i `x ]
+"97
+}
+[e :U 151 ]
+"94
+[e $ != -> *U _str `ui -> 0 `ui 152  ]
+[e :U 153 ]
+"98
+[e :UE 150 ]
+}
+"104
+[v _HAL_UART_ISR_Handler `(v ~T0 @X0 1 ef ]
+{
+[e :U _HAL_UART_ISR_Handler ]
+[f ]
+"106
+[e $ ! == -> . . _PIR1bits 0 5 `i -> 1 `i 155  ]
+{
+"109
+[e $ ! != -> . . _RCSTAbits 0 1 `i -> 0 `i 156  ]
+{
+"110
+[e = . . _RCSTAbits 0 4 -> -> 0 `i `uc ]
+"111
+[; <" nop ;# ">
+"112
+[e = . . _RCSTAbits 0 4 -> -> 1 `i `uc ]
+"113
+}
+[e :U 156 ]
+"116
+[v _received_byte `uc ~T0 @X0 1 a ]
+[e = _received_byte _RCREG ]
+"119
+[v _next_head `uc ~T0 @X0 1 a ]
+[e = _next_head -> % + -> _rx_head `i -> 1 `i -> 64 `i `uc ]
+"122
+[e $ ! != -> _next_head `i -> _rx_tail `i 157  ]
+{
+"123
+[e = *U + &U _rx_buffer * -> _rx_head `ux -> -> # *U &U _rx_buffer `ui `ux _received_byte ]
+"124
+[e = _rx_head _next_head ]
+"125
+}
+[e :U 157 ]
+"126
+}
+[e :U 155 ]
+"127
+[e :UE 154 ]
+}

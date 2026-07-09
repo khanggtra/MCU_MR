@@ -1,0 +1,17 @@
+# ninja log v7
+36	269	7999537424638542	CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir/D_/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/app/app_commute/app_commute.c.p1	f80dc0d28b224973
+94	673	7999532244356026	CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir/D_/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/project_config/fuse/fuse.c.p1	ccfccc026c972823
+53	694	7999532243955523	CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir/D_/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/drivers/DC_motor/DC_Motor.c.p1	1165bb17ca9e0583
+77	702	7999532244190776	CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir/D_/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/hal/hal_pwm/hal_pwm.c.p1	3ec7f39ed2ae6353
+83	768	7999532244256005	CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir/D_/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/hal/hal_timer0/hal_timer0.c.p1	74a886aa2f9bb29f
+41	276	7999537424688077	CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir/D_/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/app/app_control/app_control.c.p1	328f38b50b3bbf79
+88	777	7999532244305954	CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir/D_/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/hal/hal_uart/hal_uart.c.p1	217b8744533da4db
+72	687	7999532244140785	CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir/D_/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/hal/hal_gpio/hal_gpio.c.p1	c5260d4018da925a
+68	751	7999532244110785	CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir/D_/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/hal/hal_adc/hal_adc.c.p1	e8f22aa9ddcf449f
+46	292	7999537424738118	CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir/D_/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/app/main.c.p1	4c20df4f79745688
+52	285	7999537424798066	CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir/D_/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/drivers/Encoder/encoder.c.p1	532af8b4d83598b7
+104	731	7999532244466104	CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir/D_/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/sys/sys_tick/sys_tick.c.p1	2c485993fd4027e7
+99	760	7999532244416172	CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir/D_/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/sys/sys_config/sys_config.c.p1	269efb6c152cf19e
+108	737	7999532244506168	CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir/D_/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/utils/utils_pid/utils_pid.c.p1	4d9c4e94bed9c2da
+57	279	7999537424858087	CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir/D_/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/utils/utils_string/utils_string.c.p1	b8e2514f3fff6314
+292	2776	7999537427203487	D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/out/Big_Project_MCU/default.elf	7a7d27fc2826e3ae

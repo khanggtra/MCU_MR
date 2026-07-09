@@ -1,0 +1,92 @@
+[
+{
+  "directory": "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/_build/Big_Project_MCU/default",
+  "command": "c:\\PROGRA~2\\MICROC~1\\xc8\\v3.10\\bin\\xc8-cc.exe -DXPRJ_default=default -D__16F887__ -D__DEBUG=1 -c -mcpu=16F887 -mdfp=C:/Users/pc/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.8.167/xc8 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto -o CMakeFiles\\Big_Project_MCU_default_default_XC8_compile.dir\\D_\\Documents\\Study\\Microcontroller\\BTL\\Big_Project_MCU\\firmware\\app\\app_commute\\app_commute.c.p1 -c D:\\Documents\\Study\\Microcontroller\\BTL\\Big_Project_MCU\\firmware\\app\\app_commute\\app_commute.c",
+  "file": "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/app/app_commute/app_commute.c",
+  "output": "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/_build/Big_Project_MCU/default/CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir/D_/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/app/app_commute/app_commute.c.p1"
+},
+{
+  "directory": "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/_build/Big_Project_MCU/default",
+  "command": "c:\\PROGRA~2\\MICROC~1\\xc8\\v3.10\\bin\\xc8-cc.exe -DXPRJ_default=default -D__16F887__ -D__DEBUG=1 -c -mcpu=16F887 -mdfp=C:/Users/pc/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.8.167/xc8 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto -o CMakeFiles\\Big_Project_MCU_default_default_XC8_compile.dir\\D_\\Documents\\Study\\Microcontroller\\BTL\\Big_Project_MCU\\firmware\\app\\app_control\\app_control.c.p1 -c D:\\Documents\\Study\\Microcontroller\\BTL\\Big_Project_MCU\\firmware\\app\\app_control\\app_control.c",
+  "file": "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/app/app_control/app_control.c",
+  "output": "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/_build/Big_Project_MCU/default/CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir/D_/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/app/app_control/app_control.c.p1"
+},
+{
+  "directory": "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/_build/Big_Project_MCU/default",
+  "command": "c:\\PROGRA~2\\MICROC~1\\xc8\\v3.10\\bin\\xc8-cc.exe -DXPRJ_default=default -D__16F887__ -D__DEBUG=1 -c -mcpu=16F887 -mdfp=C:/Users/pc/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.8.167/xc8 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto -o CMakeFiles\\Big_Project_MCU_default_default_XC8_compile.dir\\D_\\Documents\\Study\\Microcontroller\\BTL\\Big_Project_MCU\\firmware\\app\\main.c.p1 -c D:\\Documents\\Study\\Microcontroller\\BTL\\Big_Project_MCU\\firmware\\app\\main.c",
+  "file": "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/app/main.c",
+  "output": "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/_build/Big_Project_MCU/default/CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir/D_/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/app/main.c.p1"
+},
+{
+  "directory": "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/_build/Big_Project_MCU/default",
+  "command": "c:\\PROGRA~2\\MICROC~1\\xc8\\v3.10\\bin\\xc8-cc.exe -DXPRJ_default=default -D__16F887__ -D__DEBUG=1 -c -mcpu=16F887 -mdfp=C:/Users/pc/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.8.167/xc8 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto -o CMakeFiles\\Big_Project_MCU_default_default_XC8_compile.dir\\D_\\Documents\\Study\\Microcontroller\\BTL\\Big_Project_MCU\\firmware\\drivers\\DC_motor\\DC_Motor.c.p1 -c \"D:\\Documents\\Study\\Microcontroller\\BTL\\Big_Project_MCU\\firmware\\drivers\\DC motor\\DC_Motor.c\"",
+  "file": "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/drivers/DC motor/DC_Motor.c",
+  "output": "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/_build/Big_Project_MCU/default/CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir/D_/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/drivers/DC_motor/DC_Motor.c.p1"
+},
+{
+  "directory": "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/_build/Big_Project_MCU/default",
+  "command": "c:\\PROGRA~2\\MICROC~1\\xc8\\v3.10\\bin\\xc8-cc.exe -DXPRJ_default=default -D__16F887__ -D__DEBUG=1 -c -mcpu=16F887 -mdfp=C:/Users/pc/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.8.167/xc8 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto -o CMakeFiles\\Big_Project_MCU_default_default_XC8_compile.dir\\D_\\Documents\\Study\\Microcontroller\\BTL\\Big_Project_MCU\\firmware\\drivers\\Encoder\\encoder.c.p1 -c D:\\Documents\\Study\\Microcontroller\\BTL\\Big_Project_MCU\\firmware\\drivers\\Encoder\\encoder.c",
+  "file": "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/drivers/Encoder/encoder.c",
+  "output": "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/_build/Big_Project_MCU/default/CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir/D_/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/drivers/Encoder/encoder.c.p1"
+},
+{
+  "directory": "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/_build/Big_Project_MCU/default",
+  "command": "c:\\PROGRA~2\\MICROC~1\\xc8\\v3.10\\bin\\xc8-cc.exe -DXPRJ_default=default -D__16F887__ -D__DEBUG=1 -c -mcpu=16F887 -mdfp=C:/Users/pc/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.8.167/xc8 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto -o CMakeFiles\\Big_Project_MCU_default_default_XC8_compile.dir\\D_\\Documents\\Study\\Microcontroller\\BTL\\Big_Project_MCU\\firmware\\hal\\hal_adc\\hal_adc.c.p1 -c D:\\Documents\\Study\\Microcontroller\\BTL\\Big_Project_MCU\\firmware\\hal\\hal_adc\\hal_adc.c",
+  "file": "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/hal/hal_adc/hal_adc.c",
+  "output": "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/_build/Big_Project_MCU/default/CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir/D_/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/hal/hal_adc/hal_adc.c.p1"
+},
+{
+  "directory": "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/_build/Big_Project_MCU/default",
+  "command": "c:\\PROGRA~2\\MICROC~1\\xc8\\v3.10\\bin\\xc8-cc.exe -DXPRJ_default=default -D__16F887__ -D__DEBUG=1 -c -mcpu=16F887 -mdfp=C:/Users/pc/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.8.167/xc8 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto -o CMakeFiles\\Big_Project_MCU_default_default_XC8_compile.dir\\D_\\Documents\\Study\\Microcontroller\\BTL\\Big_Project_MCU\\firmware\\hal\\hal_gpio\\hal_gpio.c.p1 -c D:\\Documents\\Study\\Microcontroller\\BTL\\Big_Project_MCU\\firmware\\hal\\hal_gpio\\hal_gpio.c",
+  "file": "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/hal/hal_gpio/hal_gpio.c",
+  "output": "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/_build/Big_Project_MCU/default/CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir/D_/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/hal/hal_gpio/hal_gpio.c.p1"
+},
+{
+  "directory": "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/_build/Big_Project_MCU/default",
+  "command": "c:\\PROGRA~2\\MICROC~1\\xc8\\v3.10\\bin\\xc8-cc.exe -DXPRJ_default=default -D__16F887__ -D__DEBUG=1 -c -mcpu=16F887 -mdfp=C:/Users/pc/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.8.167/xc8 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto -o CMakeFiles\\Big_Project_MCU_default_default_XC8_compile.dir\\D_\\Documents\\Study\\Microcontroller\\BTL\\Big_Project_MCU\\firmware\\hal\\hal_pwm\\hal_pwm.c.p1 -c D:\\Documents\\Study\\Microcontroller\\BTL\\Big_Project_MCU\\firmware\\hal\\hal_pwm\\hal_pwm.c",
+  "file": "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/hal/hal_pwm/hal_pwm.c",
+  "output": "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/_build/Big_Project_MCU/default/CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir/D_/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/hal/hal_pwm/hal_pwm.c.p1"
+},
+{
+  "directory": "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/_build/Big_Project_MCU/default",
+  "command": "c:\\PROGRA~2\\MICROC~1\\xc8\\v3.10\\bin\\xc8-cc.exe -DXPRJ_default=default -D__16F887__ -D__DEBUG=1 -c -mcpu=16F887 -mdfp=C:/Users/pc/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.8.167/xc8 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto -o CMakeFiles\\Big_Project_MCU_default_default_XC8_compile.dir\\D_\\Documents\\Study\\Microcontroller\\BTL\\Big_Project_MCU\\firmware\\hal\\hal_timer0\\hal_timer0.c.p1 -c D:\\Documents\\Study\\Microcontroller\\BTL\\Big_Project_MCU\\firmware\\hal\\hal_timer0\\hal_timer0.c",
+  "file": "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/hal/hal_timer0/hal_timer0.c",
+  "output": "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/_build/Big_Project_MCU/default/CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir/D_/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/hal/hal_timer0/hal_timer0.c.p1"
+},
+{
+  "directory": "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/_build/Big_Project_MCU/default",
+  "command": "c:\\PROGRA~2\\MICROC~1\\xc8\\v3.10\\bin\\xc8-cc.exe -DXPRJ_default=default -D__16F887__ -D__DEBUG=1 -c -mcpu=16F887 -mdfp=C:/Users/pc/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.8.167/xc8 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto -o CMakeFiles\\Big_Project_MCU_default_default_XC8_compile.dir\\D_\\Documents\\Study\\Microcontroller\\BTL\\Big_Project_MCU\\firmware\\hal\\hal_uart\\hal_uart.c.p1 -c D:\\Documents\\Study\\Microcontroller\\BTL\\Big_Project_MCU\\firmware\\hal\\hal_uart\\hal_uart.c",
+  "file": "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/hal/hal_uart/hal_uart.c",
+  "output": "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/_build/Big_Project_MCU/default/CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir/D_/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/hal/hal_uart/hal_uart.c.p1"
+},
+{
+  "directory": "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/_build/Big_Project_MCU/default",
+  "command": "c:\\PROGRA~2\\MICROC~1\\xc8\\v3.10\\bin\\xc8-cc.exe -DXPRJ_default=default -D__16F887__ -D__DEBUG=1 -c -mcpu=16F887 -mdfp=C:/Users/pc/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.8.167/xc8 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto -o CMakeFiles\\Big_Project_MCU_default_default_XC8_compile.dir\\D_\\Documents\\Study\\Microcontroller\\BTL\\Big_Project_MCU\\firmware\\project_config\\fuse\\fuse.c.p1 -c D:\\Documents\\Study\\Microcontroller\\BTL\\Big_Project_MCU\\firmware\\project_config\\fuse\\fuse.c",
+  "file": "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/project_config/fuse/fuse.c",
+  "output": "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/_build/Big_Project_MCU/default/CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir/D_/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/project_config/fuse/fuse.c.p1"
+},
+{
+  "directory": "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/_build/Big_Project_MCU/default",
+  "command": "c:\\PROGRA~2\\MICROC~1\\xc8\\v3.10\\bin\\xc8-cc.exe -DXPRJ_default=default -D__16F887__ -D__DEBUG=1 -c -mcpu=16F887 -mdfp=C:/Users/pc/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.8.167/xc8 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto -o CMakeFiles\\Big_Project_MCU_default_default_XC8_compile.dir\\D_\\Documents\\Study\\Microcontroller\\BTL\\Big_Project_MCU\\firmware\\sys\\sys_config\\sys_config.c.p1 -c D:\\Documents\\Study\\Microcontroller\\BTL\\Big_Project_MCU\\firmware\\sys\\sys_config\\sys_config.c",
+  "file": "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/sys/sys_config/sys_config.c",
+  "output": "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/_build/Big_Project_MCU/default/CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir/D_/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/sys/sys_config/sys_config.c.p1"
+},
+{
+  "directory": "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/_build/Big_Project_MCU/default",
+  "command": "c:\\PROGRA~2\\MICROC~1\\xc8\\v3.10\\bin\\xc8-cc.exe -DXPRJ_default=default -D__16F887__ -D__DEBUG=1 -c -mcpu=16F887 -mdfp=C:/Users/pc/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.8.167/xc8 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto -o CMakeFiles\\Big_Project_MCU_default_default_XC8_compile.dir\\D_\\Documents\\Study\\Microcontroller\\BTL\\Big_Project_MCU\\firmware\\sys\\sys_tick\\sys_tick.c.p1 -c D:\\Documents\\Study\\Microcontroller\\BTL\\Big_Project_MCU\\firmware\\sys\\sys_tick\\sys_tick.c",
+  "file": "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/sys/sys_tick/sys_tick.c",
+  "output": "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/_build/Big_Project_MCU/default/CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir/D_/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/sys/sys_tick/sys_tick.c.p1"
+},
+{
+  "directory": "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/_build/Big_Project_MCU/default",
+  "command": "c:\\PROGRA~2\\MICROC~1\\xc8\\v3.10\\bin\\xc8-cc.exe -DXPRJ_default=default -D__16F887__ -D__DEBUG=1 -c -mcpu=16F887 -mdfp=C:/Users/pc/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.8.167/xc8 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto -o CMakeFiles\\Big_Project_MCU_default_default_XC8_compile.dir\\D_\\Documents\\Study\\Microcontroller\\BTL\\Big_Project_MCU\\firmware\\utils\\utils_pid\\utils_pid.c.p1 -c D:\\Documents\\Study\\Microcontroller\\BTL\\Big_Project_MCU\\firmware\\utils\\utils_pid\\utils_pid.c",
+  "file": "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/utils/utils_pid/utils_pid.c",
+  "output": "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/_build/Big_Project_MCU/default/CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir/D_/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/utils/utils_pid/utils_pid.c.p1"
+},
+{
+  "directory": "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/_build/Big_Project_MCU/default",
+  "command": "c:\\PROGRA~2\\MICROC~1\\xc8\\v3.10\\bin\\xc8-cc.exe -DXPRJ_default=default -D__16F887__ -D__DEBUG=1 -c -mcpu=16F887 -mdfp=C:/Users/pc/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.8.167/xc8 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto -o CMakeFiles\\Big_Project_MCU_default_default_XC8_compile.dir\\D_\\Documents\\Study\\Microcontroller\\BTL\\Big_Project_MCU\\firmware\\utils\\utils_string\\utils_string.c.p1 -c D:\\Documents\\Study\\Microcontroller\\BTL\\Big_Project_MCU\\firmware\\utils\\utils_string\\utils_string.c",
+  "file": "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/utils/utils_string/utils_string.c",
+  "output": "D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/_build/Big_Project_MCU/default/CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir/D_/Documents/Study/Microcontroller/BTL/Big_Project_MCU/firmware/utils/utils_string/utils_string.c.p1"
+}
+]

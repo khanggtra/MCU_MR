@@ -1,0 +1,349 @@
+Version 4.0 HI-TECH Software Intermediate Code
+[p mainexit ]
+"28 D:\Documents\Study\Microcontroller\BTL\Big_Project_MCU\firmware\app/../sys/sys_config/sys_config.h
+[v _sys_config `(v ~T0 @X0 0 ef ]
+"49 D:\Documents\Study\Microcontroller\BTL\Big_Project_MCU\firmware\app/../sys/sys_tick/sys_tick.h
+[v _SysTick_GetMs `(ul ~T0 @X0 0 ef ]
+"8 D:\Documents\Study\Microcontroller\BTL\Big_Project_MCU\firmware\app/../utils/utils_pid/utils_pid.h
+[s S142 `l 1 `l 1 `l 1 `uc 1 `l 1 `l 1 `l 1 `l 1 `l 1 ]
+[n S142 . Kp Ki Kd Ts e_k_1 e_k_2 u_k_1 out_min out_max ]
+"34
+[v _PID_Init `(v ~T0 @X0 0 ef7`*S142`l`l`l`uc`l`l ]
+"38 D:\Documents\Study\Microcontroller\BTL\Big_Project_MCU\firmware\app\main.c
+[c E36 0 1 2 3 4 .. ]
+[n E36 . PORT_A PORT_B PORT_C PORT_D PORT_E  ]
+[c E43 0 1 2 3 4 5 6 7 .. ]
+[n E43 . PIN_0 PIN_1 PIN_2 PIN_3 PIN_4 PIN_5 PIN_6 PIN_7  ]
+"9 D:\Documents\Study\Microcontroller\BTL\Big_Project_MCU\firmware\app/../drivers/DC motor/DC_Motor.h
+[v _DC_Motor_Init `(v ~T0 @X0 0 ef3`E36`E43`E43 ]
+"336 C:/Users/pc/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.8.167/xc8\pic\include\proc/pic16f887.h
+[v _PORTD `Vuc ~T0 @X0 0 e@8 ]
+"45 D:\Documents\Study\Microcontroller\BTL\Big_Project_MCU\firmware\app\main.c
+[c E1512 1 2 .. ]
+[n E1512 . PWM_CHANNEL_1 PWM_CHANNEL_2  ]
+"26 D:\Documents\Study\Microcontroller\BTL\Big_Project_MCU\firmware\app/../hal/hal_pwm/hal_pwm.h
+[v _HAL_PWM_SetDutyCycle `(v ~T0 @X0 0 ef2`E1512`us ]
+"46 D:\Documents\Study\Microcontroller\BTL\Big_Project_MCU\firmware\app\main.c
+[c E53 0 1 .. ]
+[n E53 . GPIO_DIR_OUTPUT GPIO_DIR_INPUT  ]
+"72 D:\Documents\Study\Microcontroller\BTL\Big_Project_MCU\firmware\app/../hal/hal_gpio/hal_gpio.h
+[v _HAL_GPIO_SetDirection `(v ~T0 @X0 0 ef3`E36`E43`E53 ]
+"212 C:/Users/pc/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.8.167/xc8\pic\include\proc/pic16f887.h
+[v _PORTB `Vuc ~T0 @X0 0 e@6 ]
+"53 D:\Documents\Study\Microcontroller\BTL\Big_Project_MCU\firmware\app\main.c
+[c E57 0 1 .. ]
+[n E57 . GPIO_LOW GPIO_HIGH  ]
+"89 D:\Documents\Study\Microcontroller\BTL\Big_Project_MCU\firmware\app/../hal/hal_gpio/hal_gpio.h
+[v _HAL_GPIO_ReadPin `(E57 ~T0 @X0 0 ef2`E36`E43 ]
+"10 D:\Documents\Study\Microcontroller\BTL\Big_Project_MCU\firmware\app/../drivers/DC motor/DC_Motor.h
+[v _DC_Motor_SetVoltage `(v ~T0 @X0 0 ef1`l ]
+"10 D:\Documents\Study\Microcontroller\BTL\Big_Project_MCU\firmware\app/../drivers/Encoder/encoder.h
+[v _Encoder_Reset `(v ~T0 @X0 0 ef ]
+"7
+[v _Encoder_GetAngle `(l ~T0 @X0 0 ef ]
+"37 D:\Documents\Study\Microcontroller\BTL\Big_Project_MCU\firmware\app/../utils/utils_pid/utils_pid.h
+[v _PID_Compute `(l ~T0 @X0 0 ef3`*S142`l`l ]
+"6 D:\Documents\Study\Microcontroller\BTL\Big_Project_MCU\firmware\app/app_commute/app_commute.h
+[v _APP_Commute `(v ~T0 @X0 0 ef5`*S142`l`*l`*uc`*uc ]
+"38 C:/Users/pc/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.8.167/xc8\pic\include\proc/pic16f887.h
+[; <" INDF equ 00h ;# ">
+"45
+[; <" TMR0 equ 01h ;# ">
+"52
+[; <" PCL equ 02h ;# ">
+"59
+[; <" STATUS equ 03h ;# ">
+"145
+[; <" FSR equ 04h ;# ">
+"152
+[; <" PORTA equ 05h ;# ">
+"214
+[; <" PORTB equ 06h ;# ">
+"276
+[; <" PORTC equ 07h ;# ">
+"338
+[; <" PORTD equ 08h ;# ">
+"400
+[; <" PORTE equ 09h ;# ">
+"438
+[; <" PCLATH equ 0Ah ;# ">
+"445
+[; <" INTCON equ 0Bh ;# ">
+"523
+[; <" PIR1 equ 0Ch ;# ">
+"579
+[; <" PIR2 equ 0Dh ;# ">
+"636
+[; <" TMR1 equ 0Eh ;# ">
+"643
+[; <" TMR1L equ 0Eh ;# ">
+"650
+[; <" TMR1H equ 0Fh ;# ">
+"657
+[; <" T1CON equ 010h ;# ">
+"751
+[; <" TMR2 equ 011h ;# ">
+"758
+[; <" T2CON equ 012h ;# ">
+"829
+[; <" SSPBUF equ 013h ;# ">
+"836
+[; <" SSPCON equ 014h ;# ">
+"906
+[; <" CCPR1 equ 015h ;# ">
+"913
+[; <" CCPR1L equ 015h ;# ">
+"920
+[; <" CCPR1H equ 016h ;# ">
+"927
+[; <" CCP1CON equ 017h ;# ">
+"1024
+[; <" RCSTA equ 018h ;# ">
+"1119
+[; <" TXREG equ 019h ;# ">
+"1126
+[; <" RCREG equ 01Ah ;# ">
+"1133
+[; <" CCPR2 equ 01Bh ;# ">
+"1140
+[; <" CCPR2L equ 01Bh ;# ">
+"1147
+[; <" CCPR2H equ 01Ch ;# ">
+"1154
+[; <" CCP2CON equ 01Dh ;# ">
+"1224
+[; <" ADRESH equ 01Eh ;# ">
+"1231
+[; <" ADCON0 equ 01Fh ;# ">
+"1332
+[; <" OPTION_REG equ 081h ;# ">
+"1402
+[; <" TRISA equ 085h ;# ">
+"1464
+[; <" TRISB equ 086h ;# ">
+"1526
+[; <" TRISC equ 087h ;# ">
+"1588
+[; <" TRISD equ 088h ;# ">
+"1650
+[; <" TRISE equ 089h ;# ">
+"1688
+[; <" PIE1 equ 08Ch ;# ">
+"1744
+[; <" PIE2 equ 08Dh ;# ">
+"1801
+[; <" PCON equ 08Eh ;# ">
+"1848
+[; <" OSCCON equ 08Fh ;# ">
+"1913
+[; <" OSCTUNE equ 090h ;# ">
+"1965
+[; <" SSPCON2 equ 091h ;# ">
+"2027
+[; <" PR2 equ 092h ;# ">
+"2034
+[; <" SSPADD equ 093h ;# ">
+"2041
+[; <" SSPMSK equ 093h ;# ">
+"2046
+[; <" MSK equ 093h ;# ">
+"2163
+[; <" SSPSTAT equ 094h ;# ">
+"2332
+[; <" WPUB equ 095h ;# ">
+"2402
+[; <" IOCB equ 096h ;# ">
+"2472
+[; <" VRCON equ 097h ;# ">
+"2542
+[; <" TXSTA equ 098h ;# ">
+"2628
+[; <" SPBRG equ 099h ;# ">
+"2690
+[; <" SPBRGH equ 09Ah ;# ">
+"2760
+[; <" PWM1CON equ 09Bh ;# ">
+"2830
+[; <" ECCPAS equ 09Ch ;# ">
+"2912
+[; <" PSTRCON equ 09Dh ;# ">
+"2956
+[; <" ADRESL equ 09Eh ;# ">
+"2963
+[; <" ADCON1 equ 09Fh ;# ">
+"2997
+[; <" WDTCON equ 0105h ;# ">
+"3050
+[; <" CM1CON0 equ 0107h ;# ">
+"3115
+[; <" CM2CON0 equ 0108h ;# ">
+"3180
+[; <" CM2CON1 equ 0109h ;# ">
+"3231
+[; <" EEDATA equ 010Ch ;# ">
+"3236
+[; <" EEDAT equ 010Ch ;# ">
+"3243
+[; <" EEADR equ 010Dh ;# ">
+"3250
+[; <" EEDATH equ 010Eh ;# ">
+"3257
+[; <" EEADRH equ 010Fh ;# ">
+"3264
+[; <" SRCON equ 0185h ;# ">
+"3321
+[; <" BAUDCTL equ 0187h ;# ">
+"3373
+[; <" ANSEL equ 0188h ;# ">
+"3435
+[; <" ANSELH equ 0189h ;# ">
+"3485
+[; <" EECON1 equ 018Ch ;# ">
+"3530
+[; <" EECON2 equ 018Dh ;# ">
+[v $root$_main `(v ~T0 @X0 0 e ]
+"22 D:\Documents\Study\Microcontroller\BTL\Big_Project_MCU\firmware\app\main.c
+[v _main `(i ~T0 @X0 1 ef ]
+{
+[e :U _main ]
+[f ]
+"23
+[e ( _sys_config ..  ]
+"25
+[v _t_start `ul ~T0 @X0 1 a ]
+[e = _t_start ( _SysTick_GetMs ..  ]
+"26
+[v _elapsed_time `ul ~T0 @X0 1 a ]
+[e = _elapsed_time -> -> -> 0 `i `l `ul ]
+"27
+[v _step_count `uc ~T0 @X0 1 a ]
+[e = _step_count -> -> 0 `i `uc ]
+"29
+[v _Motor_angle `l ~T0 @X0 1 a ]
+"31
+[v _pid_motor `S142 ~T0 @X0 1 a ]
+"32
+[e ( _PID_Init (4 , , , , , , &U _pid_motor -> -> 2 `i `l -> -> 1 `i `l -> -> 1 `i `l -> -> 10 `i `uc -> -> 0 `i `l -> -> 1000 `i `l ]
+"34
+[v _voltage_pid_mV `l ~T0 @X0 1 a ]
+"35
+[v _setpoint `l ~T0 @X0 1 a ]
+[e = _setpoint -> -> 0 `i `l ]
+"38
+[e ( _DC_Motor_Init (3 , , -> _PORTD `E36 . `E43 0 . `E43 1 ]
+"40
+[v _Run_mode `uc ~T0 @X0 1 a ]
+[e = _Run_mode -> -> 0 `i `uc ]
+"41
+[v _Calib_done `uc ~T0 @X0 1 a ]
+[e = _Calib_done -> -> 0 `i `uc ]
+"43
+[v _t_start_commute `ul ~T0 @X0 1 a ]
+[e = _t_start_commute -> -> -> 0 `i `l `ul ]
+"44
+[v _commute_interval `ul ~T0 @X0 1 a ]
+[e = _commute_interval -> -> -> 100 `i `l `ul ]
+"45
+[e ( _HAL_PWM_SetDutyCycle (2 , . `E1512 0 -> -> 0 `i `us ]
+"46
+[e ( _HAL_GPIO_SetDirection (3 , , -> _PORTB `E36 . `E43 0 . `E53 1 ]
+"47
+[e :U 145 ]
+{
+"48
+[e $U 147  ]
+[e :U 148 ]
+{
+"49
+[e = _elapsed_time - ( _SysTick_GetMs ..  _t_start ]
+"50
+[e $ ! < _elapsed_time -> -> -> 100 `i `l `ul 150  ]
+{
+"51
+[e $U 147  ]
+"52
+}
+[e :U 150 ]
+"53
+[e $ ! == -> ( _HAL_GPIO_ReadPin (2 , -> _PORTB `E36 . `E43 0 `ui -> . `E57 1 `ui 151  ]
+{
+"54
+[e = _Calib_done -> -> 1 `i `uc ]
+"55
+[e ( _DC_Motor_SetVoltage (1 -> -> 0 `i `l ]
+"56
+[e ( _Encoder_Reset ..  ]
+"57
+[e $U 149  ]
+"58
+}
+[e :U 151 ]
+"59
+[e ( _DC_Motor_SetVoltage (1 -> -> 300 `i `l ]
+"60
+[e = _Run_mode -> -> 1 `i `uc ]
+"61
+}
+[e :U 147 ]
+"48
+[e $ ! != -> _Calib_done `i -> 0 `i 148  ]
+[e :U 149 ]
+"63
+[e $U 152  ]
+[e :U 153 ]
+{
+"64
+[e = _elapsed_time - ( _SysTick_GetMs ..  _t_start ]
+"65
+[e $ ! || >= _elapsed_time -> -> -> 2 `i `l `ul == -> _step_count `i -> 0 `i 155  ]
+{
+"66
+[e = _Motor_angle ( _Encoder_GetAngle ..  ]
+"67
+[e = _voltage_pid_mV ( _PID_Compute (3 , , &U _pid_motor _setpoint _Motor_angle ]
+"70
+[e ( _DC_Motor_SetVoltage (1 _voltage_pid_mV ]
+"71
+[e = _step_count -> -> 10 `i `uc ]
+"72
+}
+[e $U 156  ]
+"73
+[e :U 155 ]
+[e $ ! >= _elapsed_time -> -> -> 10 `i `l `ul 157  ]
+{
+"74
+[e = _step_count -> -> 0 `i `uc ]
+"75
+[e = _t_start ( _SysTick_GetMs ..  ]
+"76
+}
+[e :U 157 ]
+[e :U 156 ]
+"78
+[e $ ! >= - ( _SysTick_GetMs ..  _t_start_commute _commute_interval 158  ]
+{
+"79
+[e ( _APP_Commute (4 , , , , &U _pid_motor _Motor_angle &U _setpoint &U _Run_mode &U _Calib_done ]
+"80
+[e = _t_start_commute ( _SysTick_GetMs ..  ]
+"81
+}
+[e :U 158 ]
+"82
+}
+[e :U 152 ]
+"63
+[e $ == -> _Run_mode `i -> 1 `i 153  ]
+[e :U 154 ]
+"83
+}
+[e :U 144 ]
+[e $U 145  ]
+[e :U 146 ]
+"84
+[e ) -> 0 `i ]
+[e $UE 143  ]
+"85
+[e :UE 143 ]
+}
