@@ -80,6 +80,7 @@ void HAL_GPIO_SetDirection(gpio_port_t port, gpio_pin_t pin, gpio_dir_t dir) {
 }
 
 void HAL_GPIO_PullUpEnable(gpio_pin_t pin) {
+    OPTION_REGbits.nRBPU = 0;
     WPUB |= (1 << pin); /* Enable weak pull-up on PORTB pins */
 }
 
