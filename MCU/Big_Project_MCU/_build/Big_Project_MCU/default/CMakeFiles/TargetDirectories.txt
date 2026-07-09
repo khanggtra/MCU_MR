@@ -1,4 +1,0 @@
-D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/_build/Big_Project_MCU/default/CMakeFiles/Big_Project_MCU_default_default_XC8_compile.dir
-D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/_build/Big_Project_MCU/default/CMakeFiles/Big_Project_MCU_default_image_qAeg3d78.dir
-D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/_build/Big_Project_MCU/default/CMakeFiles/edit_cache.dir
-D:/Documents/Study/Microcontroller/BTL/Big_Project_MCU/_build/Big_Project_MCU/default/CMakeFiles/rebuild_cache.dir

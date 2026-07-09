@@ -1,0 +1,6 @@
+#ifndef PROJECT_CONFIG_H
+#define PROJECT_CONFIG_H
+
+#define _XTAL_FREQ 20000000UL /*20 MHz*/
+
+#endif
