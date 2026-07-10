@@ -55,19 +55,24 @@ void sys_config(void) {
 static void System_GPIO_Config(void) {
 
     /*OUTPUT: LED*/
-    HAL_GPIO_SetDirection(PORT_D, PIN_0, GPIO_DIR_OUTPUT); /* Set PORT_D PIN_0 as Output for Green led */
-    HAL_GPIO_SetDirection(PORT_D, PIN_1, GPIO_DIR_OUTPUT); /* Set PORT_D PIN_1 as Output for Red led */
-    HAL_GPIO_SetDirection(PORT_D, PIN_2, GPIO_DIR_OUTPUT); /* Set PORT_D PIN_2 as Output for Blue led */
+    HAL_GPIO_SetDirection(PORT_D, PIN_2, GPIO_DIR_OUTPUT); /* Set PORT_D PIN_2 as Output for Green led */
+    HAL_GPIO_SetDirection(PORT_D, PIN_3, GPIO_DIR_OUTPUT); /* Set PORT_D PIN_3 as Output for Red led */
+    HAL_GPIO_SetDirection(PORT_D, PIN_4, GPIO_DIR_OUTPUT); /* Set PORT_D PIN_4 as Output for Blue led */
+     /* Ensure LEDs are off by default (drive outputs low)
+         This prevents pins from remaining high after reset. */
+     HAL_GPIO_WritePin(PORT_D, PIN_2, GPIO_LOW);
+     HAL_GPIO_WritePin(PORT_D, PIN_3, GPIO_LOW);
+     HAL_GPIO_WritePin(PORT_D, PIN_4, GPIO_LOW);
     
     /*INPUT: BUTTON*/
-    HAL_GPIO_SetDirection(PORT_B, PIN_1, GPIO_DIR_INPUT); /* Set PORT_B PIN_0 as Input for Button 1*/
-    HAL_GPIO_PullUpEnable(PIN_1); /* Enable Pull-up resistor for PORT_B PIN_0 */
+    HAL_GPIO_SetDirection(PORT_B, PIN_1, GPIO_DIR_INPUT); /* Set PORT_B PIN_1 as Input for Button 1*/
+    HAL_GPIO_PullUpEnable(PIN_1); /* Enable Pull-up resistor for PORT_B PIN_1 */
     
-    HAL_GPIO_SetDirection(PORT_B, PIN_2, GPIO_DIR_INPUT); /* Set PORT_B PIN_1 as Input for Button 2*/
-    HAL_GPIO_PullUpEnable(PIN_2); /* Enable Pull-up resistor for PORT_B PIN_1 */
+    HAL_GPIO_SetDirection(PORT_B, PIN_2, GPIO_DIR_INPUT); /* Set PORT_B PIN_2 as Input for Button 2*/
+    HAL_GPIO_PullUpEnable(PIN_2); /* Enable Pull-up resistor for PORT_B PIN_2 */
 
-    HAL_GPIO_SetDirection(PORT_B, PIN_3, GPIO_DIR_INPUT); /* Set PORT_B PIN_2 as Input for Button 3*/
-    HAL_GPIO_PullUpEnable(PIN_3); /* Enable Pull-up resistor for PORT_B PIN_2 */
+    HAL_GPIO_SetDirection(PORT_B, PIN_3, GPIO_DIR_INPUT); /* Set PORT_B PIN_3 as Input for Button 3*/
+    HAL_GPIO_PullUpEnable(PIN_3); /* Enable Pull-up resistor for PORT_B PIN_3 */
 }
 
 /**
