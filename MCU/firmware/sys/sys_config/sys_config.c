@@ -2,11 +2,12 @@
 #include <xc.h> /* Required for global interrupt (INTCON) manipulation */
 
 /* --- System Services --- */
-#include "../../hal/hal_gpio/hal_gpio.h"
 #include "../sys_tick/sys_tick.h"
 
 /* --- Hardware Abstraction Layer (HAL) --- */
 #include "../../hal/hal_uart/hal_uart.h"
+#include "../../hal/hal_gpio/hal_gpio.h"
+
 /* --- */
 
 
@@ -59,14 +60,14 @@ static void System_GPIO_Config(void) {
     HAL_GPIO_SetDirection(PORT_D, PIN_2, GPIO_DIR_OUTPUT); /* Set PORT_D PIN_2 as Output for Blue led */
     
     /*INPUT: BUTTON*/
-    HAL_GPIO_SetDirection(PORT_B, PIN_0, GPIO_DIR_INPUT); /* Set PORT_B PIN_0 as Input for Button 1*/
-    HAL_GPIO_PullUpEnable(PIN_0); /* Enable Pull-up resistor for PORT_B PIN_0 */
+    HAL_GPIO_SetDirection(PORT_B, PIN_1, GPIO_DIR_INPUT); /* Set PORT_B PIN_0 as Input for Button 1*/
+    HAL_GPIO_PullUpEnable(PIN_1); /* Enable Pull-up resistor for PORT_B PIN_0 */
     
-    HAL_GPIO_SetDirection(PORT_B, PIN_1, GPIO_DIR_INPUT); /* Set PORT_B PIN_1 as Input for Button 2*/
-    HAL_GPIO_PullUpEnable(PIN_1); /* Enable Pull-up resistor for PORT_B PIN_1 */
+    HAL_GPIO_SetDirection(PORT_B, PIN_2, GPIO_DIR_INPUT); /* Set PORT_B PIN_1 as Input for Button 2*/
+    HAL_GPIO_PullUpEnable(PIN_2); /* Enable Pull-up resistor for PORT_B PIN_1 */
 
-    HAL_GPIO_SetDirection(PORT_B, PIN_2, GPIO_DIR_INPUT); /* Set PORT_B PIN_2 as Input for Button 3*/
-    HAL_GPIO_PullUpEnable(PIN_2); /* Enable Pull-up resistor for PORT_B PIN_2 */
+    HAL_GPIO_SetDirection(PORT_B, PIN_3, GPIO_DIR_INPUT); /* Set PORT_B PIN_2 as Input for Button 3*/
+    HAL_GPIO_PullUpEnable(PIN_3); /* Enable Pull-up resistor for PORT_B PIN_2 */
 }
 
 /**
