@@ -4259,7 +4259,7 @@
 		)
 		(uuid "997ccaea-d389-403d-9e5f-fdc504e38b55")
 	)
-	(label "LED_G"
+	(label "LED_R"
 		(at 110.49 83.82 180)
 		(effects
 			(font
@@ -4359,7 +4359,7 @@
 		)
 		(uuid "e25bbdc2-1d4b-49cb-851e-57a20e97d938")
 	)
-	(label "LED_R"
+	(label "LED_G"
 		(at 110.49 86.36 180)
 		(effects
 			(font
