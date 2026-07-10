@@ -10,15 +10,15 @@
 int main(void) {
 
     // /*1.1*/Nhấn nút nhấn, đèn Led sáng. Thả nút nhấn, đèn Led tắt.
-    HAL_GPIO_WritePin(PORT_D, PIN_0, GPIO_LOW);
+    sys_config();
+    HAL_GPIO_WritePin(PORT_D, PIN_2, GPIO_LOW);
     while (1) {
-        if (HAL_GPIO_ReadPin(PORT_B, PIN_0) == GPIO_LOW) {
-            HAL_GPIO_WritePin(PORT_D, PIN_0, GPIO_HIGH); 
+        if (HAL_GPIO_ReadPin(PORT_B, PIN_1) == GPIO_LOW) {
+            HAL_GPIO_WritePin(PORT_D, PIN_2, GPIO_HIGH); 
         } else {
-            HAL_GPIO_WritePin(PORT_D, PIN_0, GPIO_LOW);  
+            HAL_GPIO_WritePin(PORT_D, PIN_2, GPIO_LOW);  
         }
     }
-    */
     
     
     
