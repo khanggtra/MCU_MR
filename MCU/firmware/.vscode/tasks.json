@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build PIC to .hex",
+      "type": "shell",
+      "command": "xc8-cc",
+      "args": [
+        "-mcpu=16f887",
+        "-mdfp=C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8",
+        "${fileBasename}",
+        "-o",
+        "${fileBasenameNoExtension}.hex"
+      ],
+      "options": {
+        "cwd": "${fileDirname}"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

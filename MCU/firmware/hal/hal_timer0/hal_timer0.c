@@ -12,8 +12,8 @@ void HAL_Timer0_Init(void) {
     /* 2. Prescaler Assignment: Assign to Timer0 */
     OPTION_REGbits.PSA = 0;
     
-    /* 3. Prescaler Rate Select: 1:4 (Bits PS2:PS0 = 001) */
-    OPTION_REGbits.PS = 0b001;
+    /* 3. Prescaler Rate Select: 1:32 (Bits PS2:PS0 = 100) */
+    OPTION_REGbits.PS = 0b100;
     
     /* 4. Preload Timer0 register */
     TMR0 = TMR0_PRELOAD_VALUE;

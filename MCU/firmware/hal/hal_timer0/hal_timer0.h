@@ -7,9 +7,9 @@
 
 /**
  * @brief Timer0 Preload value for 1ms tick at 20MHz.
- * Calculation: (256 - 6) * 8 (prescaler) * 0.5us = 250 * 4us = 1000us = 1ms.
+ * Calculation: (256 - 100) * 32 (prescaler) * 0.2us = 250 * 4us = 1000us = 1ms.
  */
-#define TMR0_PRELOAD_VALUE 6
+#define TMR0_PRELOAD_VALUE 100
 
 /* ==============================================================================
  * API FUNCTION PROTOTYPES
