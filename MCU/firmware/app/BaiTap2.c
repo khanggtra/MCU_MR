@@ -51,9 +51,7 @@ int main(void) {
         if ((current_ms - last_uart_send_time) >= 200) {
             last_uart_send_time = current_ms;
 
-
             adc_raw = HAL_ADC_Read(12);
-
 
             pot_duty_cycle = (uint8_t)((adc_raw * 100UL) / 1023);
 
